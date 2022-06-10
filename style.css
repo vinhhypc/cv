@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header .pf-pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid black;
+    position: relative;
+    left: -11px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 100px 100px;
+    position: relative;
+    z-index: 10;
+    background-color: orange;
+    overflow: hidden;
+    border-top-left-radius: 99rem;
+    border-bottom-left-radius: 99rem;
+    background-size: 70%;
+}
+
+
+/* main */
+ h2{
+    background-color: orange;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.yellow-dot{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.content h3{
+    font-weight: bold;
+}
+.content p{
+    font-size: 14px;
+}
+.para-right h4{
+    color: palevioletred;
+}
+.para-right p{
+    font-size: 16px;
+}
+
+.end-color{
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+
+/* right */
+
+.right-cv{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 50px;
+    min-height: 300vh;
+}
+.contact{
+    margin-top: 400px;
+    display: inline-block;
+}
+.contact .contact-p{
+    text-transform: uppercase;
+    border: 1px solid orange;
+    max-width: fit-content;
+    padding: 5px 20px;
+    margin-left: 30px;
+}
+.contact i{ 
+    margin: 0 10px;
+    color: orange;
+}
+.contact .location, .phone, .email, .fbook{
+    margin-left: 30px;
+}
+.contact .location, .phone, .email, .fbook p{ 
+    color: white;
+}
+
+.contact .location, .phone, .email, .fbook{
+   float: left;
+   width: 100%;
+}
+.skill .skill-p{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border: 1px solid orange;
+    padding: 5px 20px;
+    max-width: fit-content;
+   margin: 50px 0px 40px 30px;
+}
+.progress{
+    margin: 20px 0;
+}
+.progress .progress-bar{
+    color: black;
+    font-weight: bolder;
+}
+.hobby{
+    margin-top: 300px;
+}
+.hobby .line{
+    border: 1px solid wheat;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+.hobby i{
+    color: orange;
+    margin: 40px 20px;
+}
